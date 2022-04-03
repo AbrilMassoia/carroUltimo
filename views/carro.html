@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+<style>
+  body{
+    background-color: #436C94;
+    font-family: Arial;
+  }
+  #main-container{
+    padding-top: 200px;
+    text-align: center;
+  }
+
+  .btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+  }
+
+  .btn-green{
+    color: white;
+    background-color: #3CC93F;
+  }
+  .btn-green:hover{
+    background-color: #37B839;	
+  }
+  .btn-green:active{
+    background-color: #29962A;
+  }
+
+  .btn-red{
+    color: white;
+    background-color: #E34242;
+  }
+  .btn-red:hover{
+    background-color: #C43535;	
+  }
+  .btn-red:active{
+    background-color: #A62828;
+  }
+
+
+</style>
+
+  <title>Carrito de compras</title>
+</head>
+<body>
+    <header>
+      <img src="" alt="logo">
+      <div>USUARIO</div>
+      <div>REDES SOCIALES</div>
+    </header>
+    <main>
+        <section class="descripcion_del_producto">
+          <div class="imagen_evento"><img src="img/evento.png" alt="foto_evento"></div>
+        </section>
+        <h4 > Detalles de pago</h4>
+        <section class="detalles_de_pago">
+            <div class="formulario">
+                <form  action="/registro" method="post">
+                    <p>
+                    <label for="numero de tarjeta">Numero de tarjeta</label>
+                    <br>
+                    <input class="completar" type="number" name="numero de tarjeta" id="numero de tarjeta">
+                    </p>
+                    <p>
+                    <label for="vencimiento">Vencimiento</label>
+                    <br>
+                    <input class="completar" type="date" name="vencimiento" id="vencimiento">
+                    </p>
+                    <p>
+                    <label for="codigo">Codigo</label>
+                    <br>
+                    <input class="completar" type="number" name="codigo" id="codigo">
+                    </p>
+                    <p>
+                    <label for="dni">DNI</label>
+                    <br>
+                    <input class="completar" type="number" name="dni" id="dni">
+                    </p>
+                    <div class="boton_detalles_de_pago">
+                      <button class="btn btn-green" type="submit">Pagar</button>
+                    </div>
+                   
+                </form>
+    
+            </div>
+
+
+       
+    </main>
+    <article>
+        tambien podria interesarte
+    </article>
+
+     <footer>
+
+     </footer>
+        
+
+    
+    
+    
+
+</body>
+</html>
